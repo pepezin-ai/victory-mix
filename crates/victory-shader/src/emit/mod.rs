@@ -1,4 +1,4 @@
-﻿//! DXIL emission (decision 0003, step 3): a console vertex, pixel, compute
+//! DXIL emission (decision 0003, step 3): a console vertex, pixel, compute
 //! or mesh shader as a PC DXIL container (SM 6.6) that host D3D12 accepts.
 //! Compute shaders keep the console's thread-group size; one that depends
 //! on the lane layout (cross-lane operations) declares the console's wave
@@ -55,7 +55,7 @@
 //!   require SM 6.6 atomic support on typed and descriptor-heap resources.
 //!
 //! Entry points: [`translate`] (container bytes as the title passes them
-//! at pipeline creation â†’ [`HostShader`]), [`emit`] (the same with the
+//! at pipeline creation → [`HostShader`]), [`emit`] (the same with the
 //! earlier stages already run). The root constants of each stage must
 //! cover [`HostShader::user_data_dwords`]. Stability: these types and the
 //! binding scheme are what pipeline creation builds on; changes are
