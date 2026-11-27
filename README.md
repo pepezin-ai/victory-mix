@@ -1,3 +1,5 @@
+> **Moved:** the newest tested build is now [**pepezin-ai/vi-mix**](https://github.com/pepezin-ai/vi-mix) (AnyXboxX / Vice-Tay base, about 11 fps on an RTX 5070). This repository stays up as the v5 snapshot on the fxceless base.
+
 # victory-mix
 
 A tested mix of open work on running an **Xbox Series title natively on a Windows PC**, from files the user supplies: the `fxceless/victory-fork` main, open pull requests that were not merged yet, a few fixes of our own, and a simple launcher with presets.
